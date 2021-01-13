@@ -1,0 +1,38 @@
+body{
+    border: 2px solid black;
+    margin: 100px;
+}
+
+h1 {
+    background-color: #558677;
+    text-align: center;
+    padding: 30px;
+}
+
+.inputBoxes {
+    margin: 5px;
+    display: inline-block
+}
+
+table, th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+th {
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: thistle;
+}
+
+p {
+    background-color: white;
+}
+
+.centerMe {
+    text-align: center;
+}
